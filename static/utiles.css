@@ -1,0 +1,144 @@
+/*
+This font is only for Title "Boss Keen's" */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&display=swap');
+/*This font is for the Body*/
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Noto+Serif+Display:wght@500&display=swap');
+.h-font {
+	font-family: 'Noto Serif Display', serif;
+}
+.flex {
+	display: flex;
+}
+.f-down{
+	flex-direction: column;
+}
+.s-between{
+	justify-content: space-between;
+}
+.hidden {
+	display: none;
+}
+.logo-size {
+	height: 55px;
+}
+.b-r-10{
+	border-radius: 10px;
+}
+.b-r-15{
+	border-radius: 15px;
+}
+.img-size {
+	height: 35px;
+}
+.bg-black {
+	background-color: black;
+}
+.bg-white {
+	background-color: white;
+}
+.t-black {
+	color: black;
+}
+.t-white {
+	color: white;
+}
+.t-red{
+	color:red ;
+}
+.t-base-green{
+	color: #51D131;
+}
+.list-st-none {
+	list-style: none;
+}
+.t-dec-none {
+	text-decoration: none;
+	text-decoration-style:;
+}
+.underline{
+	text-decoration: underline;
+}
+.m-0 {
+	margin: 0px;
+}
+.m-10 {
+	margin: 10px;
+}
+.m-t-30{
+	margin-top:30px;
+}
+.m-t-25{
+	margin-top: 25px;
+}
+.m-l-25 {
+	margin-left: 25px;
+}
+.m-l-15{
+	margin-left: 15px;
+}
+.p-0 {
+	padding: 0;
+}
+.w-15{
+	width: 25px;
+}
+.links {
+	font-size:22px;
+	text-decoration: none;
+	color: black;
+	margin: 35px;
+}
+.border-none {
+	border-width: 0px;
+}
+.d-none {
+	display: none;
+}
+.d-block {
+	display: block;
+}
+.sections {
+	padding: 1vh;
+	margin: 10px;
+	border-radius: 10px;
+}
+.s-h-150{
+	height: 150px;
+}
+.card{
+	height: 10em;
+}
+.b-card{
+	margin: 10px;
+	padding: 5px;
+
+}
+.des{
+	font-size: 12px;
+	height: 100px;
+	margin-top: 8px;
+}
+.b-cover{
+	height: 130px;
+	border: 2px solid black;
+}
+.b-button{
+	background-color:#51D131;
+	padding: 2px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-left: 25px;
+}
+.s-article {
+	margin: 10px;
+}
+.a-text {
+	margin: 10px;
+	width:;
+	font-family: 'Mukta', sans-serif;
+	font-family: 'Noto Serif Display', serif;
+}
+.t-center {
+	text-align: center;
+
+}

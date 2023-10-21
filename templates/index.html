@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Data Usage-Stats Tracker</title>
+	<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/utiles.css">
+</head>
+<body>
+	<header class="flex bg-black t-white">
+		<h1 class="h-font">Data Usage-Stats Tracker</h1>
+		<nav class="flex">
+			<a href="/" class="links"><ul class="t-white">Home</ul></a>
+			<a href="https://bossgroups.onrender.com/" class="links"><ul class="t-white">Our Main Website</ul></a>
+			<a href="/about" class="links"><ul class="t-white">About</ul></a>
+		</nav>
+	</header>
+	<div class="m-t-30">
+		<form action="/process" method="POST">
+	<span class="m-t-30 m-l-15" style="font-size:22px;">Enter Your Code:</span> <input type="text" name="code" id="code" placeholder="Code example: NM55" required >
+	<input type="submit" value="Submit" class="m-10 b-button">
+</form>
+	</div>
+</body>
+</html>
